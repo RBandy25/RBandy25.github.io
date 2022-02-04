@@ -58,7 +58,7 @@ var $ = function(id) {
                 end;
             }
             
-            else if (userOption == "" ) {
+            else if (userOption == "" || null || "null") {
                
                 end;
             }
